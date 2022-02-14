@@ -7,5 +7,5 @@ In this repository, we provide:
 
 1) In the datasets folder: the datasets for training the [``first model``](https://github.com/Narjes-b/CongIdentification/blob/main/Datasets/Model1(configNonconfig).csv) and the [``second model``](https://github.com/Narjes-b/CongIdentification/blob/main/Datasets/Model2(ConfigTypes).csv). 
 2) In the scripts folder: the scripts for building the [``first model``](https://github.com/Narjes-b/CongIdentification/blob/main/Scripts/Model1(configNonconfig).py) and the [``second model``](https://github.com/Narjes-b/CongIdentification/blob/main/Scripts/Model2(ConfigTypes).py).   
-3) In the classifiers results folder: the comparison results between the five classifiers for the [``first model``](https://github.com/Narjes-b/CongIdentification/blob/main/Classifiers-Results/Model1(configNonconfig).csv) and the [``second model``](https://github.com/Narjes-b/CongIdentification/blob/main/Classifiers-Results/Model2(ConfigTypes).csv).
+3) In the classifiers-results folder: the comparison results between the five classifiers for the [``first model``](https://github.com/Narjes-b/CongIdentification/blob/main/Classifiers-Results/Model1(configNonconfig).csv) and the [``second model``](https://github.com/Narjes-b/CongIdentification/blob/main/Classifiers-Results/Model2(ConfigTypes).csv).
 
