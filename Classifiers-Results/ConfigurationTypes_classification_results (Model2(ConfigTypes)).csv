@@ -1,4 +1,5 @@
-﻿Configuration types,AUC,Brier score
+﻿Results of the RF model
+Configuration types,AUC,Brier score
 Environment_Access,0.977,0.013
 External,0.888,0.056
 Reader,0.984,0.027
