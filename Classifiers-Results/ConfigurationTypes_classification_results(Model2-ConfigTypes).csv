@@ -1,0 +1,11 @@
+﻿Results of the RF model,,
+Configuration types,AUC,Brier score
+Environment_Access,0.977,0.013
+External,0.888,0.056
+Reader,0.984,0.027
+Service_Operations,0.873,0.062
+Declaration,0.995,0.016
+Infrastructure_Creation,0.865,0.017
+Infrastructure_Setup,0.847,0.049
+Infrastructure_Templates,0.952,0.062
+Infrastructure_Variables,0.904,0.087
