@@ -1,7 +1,7 @@
 # CongIdentification
 
 
-This is the Github assets folder for the paper untitled "What Constitute a Configuration System? An Empirical Study on OpenStack Projects". This paper investigates the configuration file types that constitute the configuration system of OpenStack. We conduct our study on OpenStack as it is one of the most deployed cloud platform for infrastructure management. To identify the different configuration file, we leverage two machine learning models. The first model predicts configuration from non-configuration files. The second model predicts the different types of the configuration files. To perform our experiment, we compare between five classifiers (SVC, RF, LR, KNN, and GB).
+This is the Github assets folder for the paper entitled "What Constitute a Configuration System? An Empirical Study on OpenStack Projects". This paper investigates the configuration file types that constitute the configuration system of OpenStack. We conduct our study on OpenStack as it is one of the most deployed cloud platform for infrastructure management. To identify the different configuration files, we leverage two machine learning models. The first model predicts configuration from non-configuration files. The second model predicts the different types of the configuration files. To perform our experiment, we compare between five classifiers (SVC, RF, LR, KNN, and GB).
 
 In this repository, we provide: 
 
