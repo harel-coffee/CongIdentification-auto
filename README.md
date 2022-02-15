@@ -6,6 +6,6 @@ This is the Github assets folder for the paper entitled "What Constitute a Confi
 In this repository, we provide: 
 
 1) In the datasets folder: the datasets for training the [``config-NonConfig model``](https://github.com/stilab-ets/CongIdentification/blob/main/Datasets/Model1-configNonconfig.csv) and the [``ConfigTypes model``](https://github.com/stilab-ets/CongIdentification/blob/main/Datasets/Model2-ConfigTypes.csv). 
-2) In the scripts folder: the scripts for building the [``config-NonConfig model``]() and the [``ConfigTypes model``]().   
+2) In the scripts folder: the scripts for building the [``config-NonConfig model``](https://github.com/stilab-ets/CongIdentification/blob/main/Scripts/Model1-configNonconfig.py) and the [``ConfigTypes model``](https://github.com/stilab-ets/CongIdentification/blob/main/Scripts/Model2-ConfigTypes.py).   
 3) In the classifiers-results folder: the comparison results between the five classifiers for the [``config-NonConfig model``]() and the [``ConfigTypes model``]().
 
