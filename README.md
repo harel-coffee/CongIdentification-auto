@@ -1,7 +1,7 @@
 # CongIdentification
 
 
-This is the Github assets folder for the paper entitled "What Constitute a Configuration System? An Empirical Study on OpenStack Projects". 
+This is the Github assets folder for the paper entitled "What Constitutes a Configuration System? An Empirical Study on OpenStack Projects". 
 
 In this repository, we provide: 
 
