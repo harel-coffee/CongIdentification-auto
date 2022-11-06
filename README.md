@@ -6,8 +6,8 @@ This paper investigates the configuration file types that constitute the configu
 
 In this repository, we provide: 
 
-1) the datasets of training the [``first model``](https://github.com/Narjes-b/CongIdentification/blob/main/Datasets/Model1.csv) and the [``second model``](https://github.com/Narjes-b/CongIdentification/blob/main/Datasets/Model2.csv). 
-2) the scripts for building our [``first model``](https://github.com/Narjes-b/CongIdentification/blob/main/Scripts/Model1(configNonconfig).py) and [``second model``](https://github.com/Narjes-b/CongIdentification/blob/main/Scripts/Model2(ConfigTypes).py).   
-3) The comparison results between the five classifiers for the [``first model``](https://github.com/Narjes-b/CongIdentification/blob/main/Classifiers-Results/Model1.csv) and the [``second model``](https://github.com/Narjes-b/CongIdentification/blob/main/Classifiers-Results/Model2.csv).
+1) the datasets of training the [``first model``](https://github.com/Narjes-b/CongIdentification/blob/main/Datasets/Dataset-Model1(configNonconfig).csv) and the [``second model``](https://github.com/Narjes-b/CongIdentification/blob/main/Datasets/Dataset-Model2(ConfigTypes).csv). 
+2) the scripts for building our [``first model``](https://github.com/Narjes-b/CongIdentification/blob/main/Scripts/Script-Model1(configNonconfig).py) and [``second model``](https://github.com/Narjes-b/CongIdentification/blob/main/Scripts/Script-Model2(ConfigTypes).py).   
+3) The comparison results between the five classifiers for the [``first model``](https://github.com/Narjes-b/CongIdentification/blob/main/Classifiers-Results/Results-Model1(ConfigTypes).csv) and the [``second model``](https://github.com/Narjes-b/CongIdentification/blob/main/Classifiers-Results/Results-Model2(ConfigTypes).csv).
 
 
