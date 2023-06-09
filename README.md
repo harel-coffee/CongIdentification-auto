@@ -33,6 +33,8 @@ If you are using conda:
 
 2- Second, make sure you add the “Redundancy” R script and the model dataset in your main folder;
 
+TO ADD: the script to tune param from lab pc
+
 3- Finally, uncomment one of the five classifiers you want to run starting from line 527 to 531;
 
 4- You are now all set to start training the model!
