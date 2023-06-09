@@ -1,11 +1,14 @@
-# CongIdentification
+# Replication Package
 
 
 This is the replication package for the paper intitled:
 
 __*"What Constitutes the Deployment and Run-time Configuration System? An Empirical Study on OpenStack Projects".*__
 
-This paper investigates the configuration file types that constitute the configuration system of OpenStack. We conduct our study on OpenStack as it is one of the most deployed cloud platform for infrastructure management. To identify the different configruation files, we first manually investigate the different configuration types. Then, we comapre between five classifiers (SVC, RF, LR, KNN, and GB), and leverage two machine learning models to automate the identification of these types. The first model predicts configuration from non-configuration files. The second model predicts the different types of the configuration files.
+This paper investigates the configuration file types that constitute the configuration system of OpenStack. We conduct our study on OpenStack as it is one of the most deployed cloud platform for infrastructure management. To identify the different configruation files, we first manually investigate the different configuration types, where we identified 9 different types of configuration files. Then, we comapre between five classifiers (SVC, RF, LR, KNN, and GB), and leverage two machine learning models to automate the identification of the different configruation file types. The first model predicts the configuration from the non-configuration files. The second model predicts the different types of the configuration files.
+
+
+### Content
 
 In this repository, we provide: 
 
@@ -17,10 +20,5 @@ In this repository, we provide:
 
 
 
-Narjes Bessghaier(1), Ali Ouni(1), Mohammed Sayagh (1), Mohamed Wiem Mkaouer(2)
-
-(1) ETS Montreal, University of Quebec, QC, Canada
-
-(2) Rochester Institue of Technology, NY, USA
 
 
