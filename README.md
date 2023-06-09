@@ -25,7 +25,7 @@ If you are uisng pip:
 
 ``pip install --upgrade scikit-bio``
 
-If you are using condo:
+If you are using conda:
 
 ``conda update scikit-bio``
 
