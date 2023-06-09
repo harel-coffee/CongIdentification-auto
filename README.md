@@ -33,7 +33,9 @@ If you are using conda:
 
 2- Second, make sure you add the “Redundancy” R script and the model dataset in your main folder;
 
-3- Finally, uncomment one of the five classifiers you want to run starting from line 527 to 531.
+3- Finally, uncomment one of the five classifiers you want to run starting from line 527 to 531;
+
+4- You are now all set to start training the model!
 
 
 
