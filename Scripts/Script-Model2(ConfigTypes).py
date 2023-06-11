@@ -477,7 +477,7 @@ for i in range(100):
          DTM.drop(DTM.columns[index_no], axis=1, inplace=True)
 
          # print(DTM)
-   # drop features nemes from DTM
+   # drop features names from DTM
    # X_train
    sparse_DTM = DTM.astype(pd.SparseDtype("float64", 0))
    X_TRAIN_AFTER_RED = sparse_DTM.sparse.to_coo().tocsr()
@@ -656,7 +656,7 @@ for i in range(100):
    flat_List_predicted_prob = [item for sublist in List_predicted_prob for item in sublist]
    # print(flat_List_predicted_prob)
 
-   # to show which features are importance for generalization, we compute importance on test set
+   # to show which features are important for generalization, we compute importance on test set
    # perm = PermutationImportance(classifier).fit(X_testF.toarray(), y_test)
    perm = PermutationImportance(classifier).fit(X_TEST.toarray(), y_test)
 
