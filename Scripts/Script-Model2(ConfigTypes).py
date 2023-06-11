@@ -284,18 +284,30 @@ from sklearn.utils import resample, check_random_state
 
 DataList = df.values.tolist()
 Categories = df['Category'].values.tolist()
-## split dataset
+## split dataset into bootstrap samples
+def bootstrap_samples(data, n=100):
+    samples = []
+    for i in range(n):
+        df_data = pd.DataFrame(data, columns=['Category', 'SourceCode'])
+        sample = df_data.sample(n=len(df_data), replace=True)
+        samples.append(sample)
+    return samples
+
+
 for i in range(100):
-   print("This is iteration n°: ", i)
-   # train = resample(DataList)
-   # train = resample(DataList, replace=True, stratify=Categories,n_samples=df.shape[0])
-   train = resample(DataList, replace=True, stratify=Categories, n_samples=1600)
-   test = [item for item in DataList if item not in train]
-   df_test = pd.DataFrame(test, columns=['Category', 'SourceCode'])
-   df_train = pd.DataFrame(train, columns=['Category', 'SourceCode'])
-   y_train = df_train["Category"].values
-   y_test = df_test["Category"].values
-   # y_test11 = df_test["Category"]
+    print("This is iteration n°: ", i)
+     print("This is iteration n°: ", i)
+    #print(DataList[i])
+    train = resample(DataList[i], replace=True, stratify=Categories,n_samples=df.shape[0])
+
+    test = DataList[i][~DataList[i]['SourceCode'].isin(train['SourceCode'])]
+    df_test = pd.DataFrame(test, columns=['Category', 'SourceCode'])
+    df_train = pd.DataFrame(train, columns=['Category', 'SourceCode'])
+    y_train = df_train["Category"].values
+    y_test = df_test["Category"].values
+    x_train = df_train["SourceCode"].values
+    X_test = df_test["SourceCode"]
+    print(test)
 
    ##DISPLAY ALL DATA
 
