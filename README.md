@@ -17,13 +17,19 @@ In this package, we provide:
 3) the comparison results between the five classifiers for the [``first model``](https://github.com/stilab-ets/CongIdentification/blob/main/Classifiers-Results/Results-Model1(configNonconfig).csv) and the [``second model``](https://github.com/stilab-ets/CongIdentification/blob/main/Classifiers-Results/Results-Model2(ConfigTypes).csv).
 
 
+# How to cite?
 
+Please, use the following bibtex entry:
 
-
-
-
-
-
-
-
-
+```tex
+@article{bessghaier2023constitutes,
+  title={What Constitutes the Deployment and Runtime Configuration System? An Empirical Study on OpenStack Projects},
+  author={Bessghaier, Narjes and Sayagh, Mohammed and Ouni, Ali and Mkaouer, Mohamed Wiem},
+  journal={ACM Transactions on Software Engineering and Methodology},
+  volume={33},
+  number={1},
+  pages={1--37},
+  year={2023},
+  publisher={ACM New York, NY}
+}
+```
