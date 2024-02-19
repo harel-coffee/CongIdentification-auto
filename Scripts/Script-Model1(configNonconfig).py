@@ -286,7 +286,7 @@ def bootstrap_samples(data, n=100):
         samples.append(sample)
     return samples
 
-
+DataList = bootstrap_samples(DataList1, n=100, )
 for i in range(100):
     print("This is iteration n°: ", i)
      print("This is iteration n°: ", i)
